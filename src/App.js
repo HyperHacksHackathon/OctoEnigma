@@ -1,6 +1,8 @@
 import { Component } from 'react';
+import FAQ from './FAQ';
 import Home from './Home';
 import Nav from './Nav';
+import Sponsors from './Sponsors';
 
 class App extends Component {
   state = { 
@@ -44,8 +46,15 @@ class App extends Component {
       <div className="App">
         <Home scrollPosition={this.state.scrollPosition}></Home>
         <Nav scrollPosition={this.state.scrollPosition}></Nav>
-        <div className='App'></div>
-        <div className='App'></div>
+        <FAQ></FAQ>
+        <div className='App'>
+          <h1>About HyperHacks</h1>
+          <h2>
+            HyperHacks is a hackathon dedicated to teaching our participants how to take their projects further once after the event is over.
+          </h2>
+        </div>
+        <Sponsors></Sponsors>
+        
       </div>
     );
   }

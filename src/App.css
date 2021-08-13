@@ -12,3 +12,19 @@
 a {
   text-decoration: none;
 }
+
+.Page {
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow-x: hidden;
+}
+
+.zh {
+ z-index: 100;
+}

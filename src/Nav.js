@@ -7,12 +7,14 @@ function Nav(props) {
   const [sponsorsHoverState, setSponsorsHoverState] = useState(false);
 
   return (
-    <div>
+    <div className='zh'>
         <svg xmlns="http://www.w3.org/2000/svg" width="2740.179" height="280.331" viewBox="0 0 2740.179 280.331" className='bar' style={{
             //maxWidth: props.scrollPosition < 0.41 ? 100 - (90 * props.scrollPosition + 10) + '%' : '48%',
-            position: props.scrollPosition < 1.06 ? 'relative' : 'fixed',
-            top: props.scrollPosition < 1.06 ? undefined : -58,
-            left: props.scrollPosition < 1.06 ? undefined : '-45vw'
+            position: 'fixed',
+            top: Math.max((99 - 99 * props.scrollPosition), -2) + '%',
+            left: '-45vw'
+            // top: props.scrollPosition < 1.06 ? undefined : -58,
+            // left: props.scrollPosition < 1.06 ? undefined : '-45vw'
         }}>
             <defs>
                 <filter id="Path_7" x="0" y="0" width="2740.179" height="280.331" filterUnits="userSpaceOnUse">
@@ -58,7 +60,17 @@ function Nav(props) {
                     onMouseLeave={() => setSponsorsHoverState(false)}
                 ><tspan x="0" y="0">Sponsors</tspan></text>
             </g>
-            </svg>
+         </svg>
+         <hr style={{
+            position: 'fixed', 
+            display: (props.scrollPosition < 1 || props.scrollPosition > 3.34) ? 'none' : 'block',
+            height: 5, 
+            width: 100, 
+            color: 'white',
+            opacity: 100,
+            top: 200,
+            left: (32 + 15 * (props.scrollPosition - 1)) + 'vw'
+        }}></hr>   
     </div>
   );
 }

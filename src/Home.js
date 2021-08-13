@@ -10,9 +10,9 @@ function Home(props) {
     return ( 
     <div className='container home'>
         {console.log(props.scrollPosition)}
-        <img src={title} className='w-100 px-5' style={{
-            maxWidth: props.scrollPosition < 0.41 ? 100 - (90 * props.scrollPosition + 10) + '%' : '48%',
-            position: props.scrollPosition < 0.41 ? 'relative' : 'fixed',
+        <img src={title} className='w-100 px-5 zh' style={{
+            maxWidth: props.scrollPosition < 0.38 ? Math.max((80 - (90 * props.scrollPosition + 10)), 48) + 'vw' : '48vw',
+            position: props.scrollPosition < 0.38 ? 'relative' : 'fixed',
             top: 5
         }}></img>
         <svg xmlns="http://www.w3.org/2000/svg" width='25%' viewBox="0 0 421.131 121.138" className='mt-3 apply-button' 
