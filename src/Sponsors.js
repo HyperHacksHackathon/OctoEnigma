@@ -13,7 +13,7 @@ function Sponsors() {
     <div className='Page'>
         <div class="container sponsors">
             <div class="row">
-                <div class="col-4">
+                <div class="col-6">
                     <Sponsor 
                         title='Wolfram'
                         desc="Compute answers using Wolfram's breakthrough technology & knowledgebase, relied on by millions of students & professionals. "
@@ -22,7 +22,7 @@ function Sponsors() {
                     </Sponsor>
                  
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <Sponsor 
                         title='Replit'
                         desc='Replit is a simple yet powerful online IDE, Editor, Compiler, Interpreter, and REPL. Code, compile, run, and host in 50+ programming languages.'
@@ -30,7 +30,7 @@ function Sponsors() {
                     >
                     </Sponsor>
                 </div>
-                <div class="col-4">
+                <div class="col-6">
                     <Sponsor 
                         title='EchoAR'
                         desc='echoAR is a cloud-based 3D-first content management system (CMS) and delivery network (CDN) that provides server-side solutions to help scale augmented and virtual reality (AR/VR) applications.'
@@ -38,8 +38,6 @@ function Sponsors() {
                     >
                     </Sponsor>
                 </div>
-            </div>
-            <div class="row">
                 <div class="col-6">
                     <Sponsor 
                         title='XYZ'

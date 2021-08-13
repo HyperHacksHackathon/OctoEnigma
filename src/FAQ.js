@@ -12,9 +12,9 @@ function FAQ() {
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <div className='carousel-inner carousel-item-mw'>
                 <div class={"carousel-item" + (currentSlide == 0 ? 'active' : '')}>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891.012 535.179">
+                    <svg xmlns="http://www.w3.org/2000/svg" height='65vh' width='90vw' viewBox="0 0 891.012 535.179">
                     <g id="Group_18" data-name="Group 18" transform="translate(-179.488 -1586.266)">
                         <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                         <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
@@ -24,7 +24,7 @@ function FAQ() {
                     </svg>
                 </div>
                 <div className={"carousel-item" + (currentSlide == 1 ? 'active' : '')}>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891.012 535.179">
+                    <svg xmlns="http://www.w3.org/2000/svg" height='65vh' width='90vw' viewBox="0 0 891.012 535.179">
                         <g id="Group_18" data-name="Group 18" transform="translate(-179.488 -1586.266)">
                             <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                             <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
@@ -34,7 +34,7 @@ function FAQ() {
                     </svg>
                 </div>
                 <div class={"carousel-item" + (currentSlide == 2 ? 'active' : '')}>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 891.012 535.179">
+                    <svg xmlns="http://www.w3.org/2000/svg" height='65vh' width='90vw' viewBox="0 0 891.012 535.179">
                         <g id="Group_18" data-name="Group 18" transform="translate(-179.488 -1586.266)">
                             <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                             <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>

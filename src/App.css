@@ -32,3 +32,8 @@ a {
 .w90 {
   width: 90vw;
 }
+
+.carousel-item-mwh {
+  max-width: 90vw;
+  max-height: 75vh;
+}

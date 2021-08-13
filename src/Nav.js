@@ -62,7 +62,7 @@ function Nav(props) {
                     onMouseEnter={() => setSponsorsHoverState(true)}
                     onMouseLeave={() => setSponsorsHoverState(false)}
                 ><tspan x="0" y="0">Sponsors</tspan></text>
-                <path d={"M" + ((props.scrollPosition - 1) * 300 + 2700) + ",4510.669 h-200"} transform="translate(-1667.023 -3207)" strokeWidth='10' stroke={props.scrollPosition < 0.9 ? 'transparent' : 'white'}></path>
+                <path d={"M" + ((props.scrollPosition - 1) * 300 + 2700) + ",4510.669 h-200"} transform="translate(-1667.023 -3207)" strokeWidth='10' stroke={props.scrollPosition < 0.2 ? 'transparent' : 'white'}></path>
             </g>
          </svg>
          <hr style={{
