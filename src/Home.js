@@ -2,13 +2,19 @@ import './App.css';
 import './Home.css';
 import title from './NoGlowTitle.png';
 import { useState } from 'react';
+import Nav from './Nav';
 
-function Home() {
+function Home(props) {
     const [applyHoverState, setApplyHoverState] = useState(false);
 
-    return (  
+    return ( 
     <div className='container home'>
-        <img src={title} className='w-100 px-5'></img>
+        {console.log(props.scrollPosition)}
+        <img src={title} className='w-100 px-5' style={{
+            maxWidth: props.scrollPosition < 0.41 ? 100 - (90 * props.scrollPosition + 10) + '%' : '48%',
+            position: props.scrollPosition < 0.41 ? 'relative' : 'fixed',
+            top: 5
+        }}></img>
         <svg xmlns="http://www.w3.org/2000/svg" width='25%' viewBox="0 0 421.131 121.138" className='mt-3 apply-button' 
         onMouseEnter={() => setApplyHoverState(true)}
         onMouseLeave={() => setApplyHoverState(false)}

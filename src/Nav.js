@@ -1,14 +1,19 @@
 import './Nav.css'
 import { useState } from 'react';
 
-function Nav() {
+function Nav(props) {
   const [faqHoverState, setFAQHoverState] = useState(false);
   const [aboutHoverState, setAboutHoverState] = useState(false);
   const [sponsorsHoverState, setSponsorsHoverState] = useState(false);
 
   return (
     <div>
-        <svg xmlns="http://www.w3.org/2000/svg" width="2740.179" height="280.331" viewBox="0 0 2740.179 280.331" className='bar'>
+        <svg xmlns="http://www.w3.org/2000/svg" width="2740.179" height="280.331" viewBox="0 0 2740.179 280.331" className='bar' style={{
+            //maxWidth: props.scrollPosition < 0.41 ? 100 - (90 * props.scrollPosition + 10) + '%' : '48%',
+            position: props.scrollPosition < 1.06 ? 'relative' : 'fixed',
+            top: props.scrollPosition < 1.06 ? undefined : -58,
+            left: props.scrollPosition < 1.06 ? undefined : '-45vw'
+        }}>
             <defs>
                 <filter id="Path_7" x="0" y="0" width="2740.179" height="280.331" filterUnits="userSpaceOnUse">
                 <feOffset dy="5" input="SourceAlpha"/>
