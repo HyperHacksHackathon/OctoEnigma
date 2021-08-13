@@ -11,7 +11,8 @@ function Nav(props) {
         <svg xmlns="http://www.w3.org/2000/svg" width="2740.179" height="280.331" viewBox="0 0 2740.179 280.331" className='bar' style={{
             //maxWidth: props.scrollPosition < 0.41 ? 100 - (90 * props.scrollPosition + 10) + '%' : '48%',
             position: 'fixed',
-            top: Math.max((99 - 99 * props.scrollPosition), -2) + '%',
+            //top: Math.max((99 - 99 * props.scrollPosition), 0) - document.documentElement.clientWidth * 0.01 + 'vh',
+            top: Math.max(((document.documentElement.clientWidth * 0.48 * 0.139957264957265) - 140), ((1 - props.scrollPosition) * document.documentElement.clientHeight)),
             left: '-45vw'
             // top: props.scrollPosition < 1.06 ? undefined : -58,
             // left: props.scrollPosition < 1.06 ? undefined : '-45vw'
@@ -34,10 +35,12 @@ function Nav(props) {
                 <line id="Line_16" data-name="Line 16" y2="63" transform="translate(1401.5 1108.669)" fill="none" stroke="#fff" stroke-width="8"/>
                 </g>
                 <g id="Group_17" data-name="Group 17">
+                <a href='#FAQ'>
                 <path id="Path_13" data-name="Path 13" d="M2787.822,4491.669l-27.361-27.361v-37.441h272.977v64.8Z" transform="translate(-1940 -3207)" stroke="#fff" stroke-width="12" fill={faqHoverState ? 'white' : 'black'}
                     onMouseEnter={() => setFAQHoverState(true)}
                     onMouseLeave={() => setFAQHoverState(false)}
                 />
+                </a>
                 <path id="Path_15" data-name="Path 15" d="M3006.079,4426.868l27.361,27.36v37.442H2760.461v-64.8Z" transform="translate(-1354.024 -3207)" stroke="#fff" stroke-width="12" fill={sponsorsHoverState ? 'white' : 'black'}
                     onMouseEnter={() => setSponsorsHoverState(true)}
                     onMouseLeave={() => setSponsorsHoverState(false)}
@@ -59,17 +62,18 @@ function Nav(props) {
                     onMouseEnter={() => setSponsorsHoverState(true)}
                     onMouseLeave={() => setSponsorsHoverState(false)}
                 ><tspan x="0" y="0">Sponsors</tspan></text>
+                <path d={"M" + ((props.scrollPosition - 1) * 300 + 2700) + ",4510.669 h-200"} transform="translate(-1667.023 -3207)" strokeWidth='10' stroke={props.scrollPosition < 0.9 ? 'transparent' : 'white'}></path>
             </g>
          </svg>
          <hr style={{
             position: 'fixed', 
-            display: (props.scrollPosition < 1 || props.scrollPosition > 3.34) ? 'none' : 'block',
-            height: 5, 
+            display: 'none', // (props.scrollPosition < 1.1 || props.scrollPosition > 3.34) ? 'none' : 'block',
+            height: 5,
             width: 100, 
             color: 'white',
             opacity: 100,
-            top: 200,
-            left: (32 + 15 * (props.scrollPosition - 1)) + 'vw'
+            top: ((document.documentElement.clientWidth * 0.48 * 0.139957264957265) + 70),
+            left: (23 + 22 * (props.scrollPosition - 1)) + 'vw'
         }}></hr>   
     </div>
   );

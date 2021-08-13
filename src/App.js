@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import FAQ from './FAQ';
+import Footer from './Footer';
 import Home from './Home';
 import Nav from './Nav';
 import Sponsors from './Sponsors';
@@ -54,7 +55,7 @@ class App extends Component {
           </h2>
         </div>
         <Sponsors></Sponsors>
-        
+        {/* <Footer></Footer> */}
       </div>
     );
   }

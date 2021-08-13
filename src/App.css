@@ -28,3 +28,7 @@ a {
 .zh {
  z-index: 100;
 }
+
+.w90 {
+  width: 90vw;
+}
