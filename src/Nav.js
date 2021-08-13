@@ -45,15 +45,15 @@ function Nav(props) {
                     onMouseLeave={() => setAboutHoverState(false)}
                 />
                 </g>
-                <text id="FAQ" transform="translate(927.146 1265.937)" fill={faqHoverState ? 'black' : 'white'} font-size="35" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-weight="700"
+                <text id="FAQ" transform="translate(927.146 1265.937)" fill={faqHoverState ? 'black' : 'white'} font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"
                     onMouseEnter={() => setFAQHoverState(true)}
                     onMouseLeave={() => setFAQHoverState(false)}
                 ><tspan x="0" y="0">FAQ</tspan></text>
-                <text id="About" transform="translate(1201.236 1265.937)" fill={aboutHoverState ? 'black' : 'white'} font-size="35" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-weight="700"
+                <text id="About" transform="translate(1201.236 1265.937)" fill={aboutHoverState ? 'black' : 'white'} font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"
                     onMouseEnter={() => setAboutHoverState(true)}
                     onMouseLeave={() => setAboutHoverState(false)}
                 ><tspan x="0" y="0">About</tspan></text>
-                <text id="Sponsors" transform="translate(1463.236 1265.937)" fill={sponsorsHoverState ? 'black' : 'white'} font-size="35" font-family="IBMPlexSans-Bold, IBM Plex Sans" font-weight="700"
+                <text id="Sponsors" transform="translate(1463.236 1265.937)" fill={sponsorsHoverState ? 'black' : 'white'} font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"
                     onMouseEnter={() => setSponsorsHoverState(true)}
                     onMouseLeave={() => setSponsorsHoverState(false)}
                 ><tspan x="0" y="0">Sponsors</tspan></text>
