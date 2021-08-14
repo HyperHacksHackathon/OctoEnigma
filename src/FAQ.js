@@ -5,7 +5,10 @@ function FAQ() {
     const [currentSlide, setSlide] = useState(0);
 
     return ( 
-    <div className='Page' id='FAQ'>
+    <div className='Page'>
+        <div id='FAQMARK' style={{
+            transform: 'translate(0, -20vh)'
+        }}></div>
         <div id="carouselExampleIndicators" class="carousel slide mt-5 w90" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>

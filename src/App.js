@@ -48,7 +48,10 @@ class App extends Component {
         <Home scrollPosition={this.state.scrollPosition}></Home>
         <Nav scrollPosition={this.state.scrollPosition}></Nav>
         <FAQ></FAQ>
-        <div className='App'>
+        <div className='Page'>
+          <div id='ABOUTMARK' style={{
+              transform: 'translate(0, -40vh)'
+          }}></div>
           <h1>About HyperHacks</h1>
           <h2>
             HyperHacks is a hackathon dedicated to teaching our participants how to take their projects further once after the event is over.
