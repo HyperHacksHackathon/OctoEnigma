@@ -1,0 +1,7 @@
+.bar {
+    width: 190vw;
+}
+
+.nav-items {
+    transform: translate(0, -100);
+}

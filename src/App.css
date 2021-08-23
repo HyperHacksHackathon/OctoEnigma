@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Page {
+  text-align: center;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20vh;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow-x: hidden;
+}
+
+.zh {
+ z-index: 100;
+}
+
+.w90 {
+  width: 90vw;
+}
+
+.carousel-item-mwh {
+  max-width: 90vw;
+  max-height: 75vh;
+}
