@@ -56,7 +56,7 @@ class App extends Component {
           <h3 className='px-5'>
             Start Date: Oct 1st, 2021 <br></br>
             Length: 48hrs <br></br><br></br>
-          HyperHacks is an online event where software and hardware developers from around the world form teams to create a project in only 48 hours. This type of event is typically called a “hackathon”. Our hackathon is focused on innovation. We want to inspire students to create a unique project that brings value to society. Through our workshops, we want to give participants the knowledge to take their project further after the hackathon ends.
+          HyperHacks is an online event where software and hardware developers from around the world form teams to create a project in only 48 hours. Our event is focused on innovation. We want to inspire students to create a unique project that brings value to society. Through our workshops, we want to give participants the knowledge to take their project further after the hackathon ends.
           </h3>
         </div>
         <Sponsors></Sponsors>
