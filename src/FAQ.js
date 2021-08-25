@@ -22,7 +22,12 @@ function FAQ() {
                         <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                         <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                         <text id="How_Many_" data-name="How Many?" transform="translate(213 1646)" fill="#fff" font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"><tspan x="0" y="0">What's a hackathon?</tspan></text>
-                        <text id="Lots" transform="translate(213 1723)" fill="#fff" font-size="32" font-family="ibm-plex-sans, sans-serif"><tspan x="0" y="0">Blah blah blah blah blah</tspan></text>
+                        <foreignObject x="200" y="1685" width="95%" height="200">
+                            <p style={{
+                                fontSize: 32,
+                                fontFamily: "ibm-plex-sans, sans-serif"
+                            }}>A hackathon is an event where teams of up to 4 work together to make a project in only 48 hours. There will also be oppurnities to talk with other students and hear from experts in the industry.</p>
+                        </foreignObject>
                     </g>
                     </svg>
                 </div>
@@ -32,7 +37,12 @@ function FAQ() {
                             <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                             <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                             <text id="How_Many_" data-name="How Many?" transform="translate(213 1646)" fill="#fff" font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"><tspan x="0" y="0">Who can apply?</tspan></text>
-                            <text id="Lots" transform="translate(213 1723)" fill="#fff" font-size="32" font-family="ibm-plex-sans, sans-serif"><tspan x="0" y="0">Hoomans</tspan></text>
+                            <foreignObject x="200" y="1685" width="95%" height="200">
+                                <p style={{
+                                    fontSize: 32,
+                                    fontFamily: "ibm-plex-sans, sans-serif"
+                                }}>Anyone that is a student at the time of the hackathon. This includes high school, university, college, bootcamps, and home-schooling</p>
+                            </foreignObject>
                         </g>
                     </svg>
                 </div>
@@ -42,7 +52,12 @@ function FAQ() {
                             <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                             <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
                             <text id="How_Many_" data-name="How Many?" transform="translate(213 1646)" fill="#fff" font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"><tspan x="0" y="0">Where is it?</tspan></text>
-                            <text id="Lots" transform="translate(213 1723)" fill="#fff" font-size="32" font-family="ibm-plex-sans, sans-serif"><tspan x="0" y="0">Discord</tspan></text>
+                            <foreignObject x="200" y="1685" width="95%" height="200">
+                                <p style={{
+                                    fontSize: 32,
+                                    fontFamily: "ibm-plex-sans, sans-serif"
+                                }}>Our event is 100% virtual, and will mostly be held on Discord</p>
+                            </foreignObject>
                         </g>
                     </svg>
                 </div>

@@ -9,6 +9,8 @@ function Footer() {
       <div className="container mb-4">
         <div className='row'>
             <div className='col'>
+                <a href='mailto:info@hyperhacks.org'>Contact</a>
+                <br></br>
                 HyperHacks © 2021
             </div>
         </div>

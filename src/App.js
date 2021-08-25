@@ -53,12 +53,12 @@ class App extends Component {
               transform: 'translate(0, -40vh)'
           }}></div>
           <h1>About HyperHacks</h1>
-          <h2>
-            HyperHacks is a hackathon dedicated to teaching our participants how to take their projects further once after the event is over.
-          </h2>
+          <h3 className='px-5'>
+          HyperHacks is an online event where software and hardware developers from around the world form teams to create a project in only 48 hours. This type of event is typically called a “hackathon”. Our hackathon is focused on innovation. We want to inspire students to create a unique project that brings value to society. Through our workshops, we want to give participants the knowledge to take their project further after the hackathon ends.
+          </h3>
         </div>
         <Sponsors></Sponsors>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>
     );
   }
