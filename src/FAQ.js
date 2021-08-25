@@ -26,7 +26,7 @@ function FAQ() {
                             <p style={{
                                 fontSize: 32,
                                 fontFamily: "ibm-plex-sans, sans-serif"
-                            }}>A hackathon is an event where teams of up to 4 work together to make a project in only 48 hours. There will also be oppurnities to talk with other students and hear from experts in the industry.</p>
+                            }}>A hackathon is an event where teams of up to 4 work together to make a project in only 48 hours. There will also be opportunities to talk with other students and hear from experts in the industry.</p>
                         </foreignObject>
                     </g>
                     </svg>
@@ -56,7 +56,7 @@ function FAQ() {
                                 <p style={{
                                     fontSize: 32,
                                     fontFamily: "ibm-plex-sans, sans-serif"
-                                }}>Our event is 100% virtual, and will mostly be held on Discord</p>
+                                }}>Our event is 100% virtual and will mostly be held on Discord</p>
                             </foreignObject>
                         </g>
                     </svg>

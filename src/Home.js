@@ -12,11 +12,15 @@ function Home(props) {
         <img src={title} className='w-100 px-5 zh' style={{
             maxWidth: props.scrollPosition * document.documentElement.clientHeight < 390 ? Math.max((80 - (90 * props.scrollPosition + 10)), 48) + 'vw' : '48vw',
             position: props.scrollPosition * document.documentElement.clientHeight < 390 ? 'relative' : 'fixed',
-            top: 5
+            top: 5,
+            zIndex: 1000
         }}></img>
         <svg xmlns="http://www.w3.org/2000/svg" width='25%' viewBox="0 0 421.131 121.138" className='mt-3 apply-button' 
         onMouseEnter={() => setApplyHoverState(true)}
         onMouseLeave={() => setApplyHoverState(false)}
+        style={{
+            zIndex: 500
+        }}
         >
         <g id="Group_10" data-name="Group 10" transform="translate(-1043.999 -832.069)">
             <a href="https://bd8qlowg5rh.typeform.com/to/jPM6EAMU">
