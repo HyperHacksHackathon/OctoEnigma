@@ -52,7 +52,7 @@ class App extends Component {
           <div id='ABOUTMARK' style={{
               transform: 'translate(0, -40vh)'
           }}></div>
-          <h1>About HyperHacks</h1>
+          {/* <h1>About HyperHacks</h1> */}
           <h3 className='px-5'>
             Start Date: Oct 1st, 2021 <br></br>
             Length: 48hrs <br></br><br></br>
