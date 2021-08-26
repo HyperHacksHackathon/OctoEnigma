@@ -15,6 +15,7 @@
   background.width = width;
   background.height = height;
   background.style.position = 'fixed';
+  background.style.filter = "blur(0.8px)";
   background.style.zIndex = '-1000';
 
   // Second canvas used for the stars
