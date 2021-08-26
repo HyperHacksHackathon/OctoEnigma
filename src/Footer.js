@@ -24,28 +24,29 @@ function Footer() {
                 <img src={seperator32} alt="Icon Seperator" className="mx-3" draggable="false" cl></img>
                 <a href='https://sponsors.hyperhacks.org/'>Sponsors</a>
                 <br></br>
-                HyperHacks © 2021
+                <a href="https://www.youtube.com/channel/UC1ql_UDrZ1SR5Estfjv5zgA"
+        className="youtube social mt-3">
+                  <FontAwesomeIcon icon={faYoutube} size="2x" />
+                </a>
+                <a href="https://www.twitch.tv/hyper_hacks"
+                  className="twitch social">
+                  <FontAwesomeIcon icon={faTwitch} size="2x" />
+                </a>
+                <a href="https://discord.green/hyperhacks"
+                  className="discord social">
+                  <FontAwesomeIcon icon={faDiscord} size="2x" />
+                </a>
+                <a href="https://www.twitter.com/hyper_hacks" className="twitter social">
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
+                </a>
+                <a href="https://www.instagram.com/hyper.hacks"
+                  className="instagram social">
+                  <FontAwesomeIcon icon={faInstagram} size="2x" color='#FF7700'/>
+                </a>
             </div>
         </div>
-      <a href="https://www.youtube.com/channel/UC1ql_UDrZ1SR5Estfjv5zgA"
-        className="youtube social">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
-      </a>
-      <a href="https://www.twitch.tv/hyper_hacks"
-        className="twitch social">
-        <FontAwesomeIcon icon={faTwitch} size="2x" />
-      </a>
-      <a href="https://discord.green/hyperhacks"
-        className="discord social">
-        <FontAwesomeIcon icon={faDiscord} size="2x" />
-      </a>
-      <a href="https://www.twitter.com/hyper_hacks" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
-      </a>
-      <a href="https://www.instagram.com/hyper.hacks"
-        className="instagram social">
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
+      
+      HyperHacks © 2021
       </div>
     );
 }
