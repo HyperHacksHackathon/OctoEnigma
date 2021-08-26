@@ -54,7 +54,7 @@ class App extends Component {
           }}></div>
           {/* <h1>About HyperHacks</h1> */}
           <div style={{
-            transform: 'rotate3d(1, 0, 0, ' + (60 - (Math.max((this.state.scrollPosition - 2), 0) * 200)) + 'deg)',
+            // transform: 'rotate3d(1, 0, 0, ' + (60 - (Math.max((this.state.scrollPosition - 2), 0) * 200)) + 'deg)',
           }}>
           <h3 className='px-5'>
             Start Date: Oct 1st, 2021 <br></br>
