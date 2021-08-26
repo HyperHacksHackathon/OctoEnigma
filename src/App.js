@@ -54,9 +54,12 @@ class App extends Component {
           }}></div>
           {/* <h1>About HyperHacks</h1> */}
           <div style={{
-            // transform: 'rotate3d(1, 0, 0, ' + (60 - (Math.max((this.state.scrollPosition - 2), 0) * 200)) + 'deg)',
+            transform: 'rotate3d(1, 0, 0, 50deg)',
+            color: '#FFCC4D'
           }}>
-          <h3 className='px-5'>
+          <h3 className='px-5' style={{
+            lineHeight: '43px'
+          }}>
             Start Date: Oct 1st, 2021 <br></br>
             Length: 48hrs <br></br><br></br>
           HyperHacks is an online event where software and hardware developers from around the world form teams to create a project in only 48 hours. Our event is focused on innovation. We want to inspire students to create a unique project that brings value to society. Through our workshops, we want to give participants the knowledge to take their project further after the hackathon ends.
