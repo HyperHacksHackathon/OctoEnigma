@@ -8,8 +8,15 @@ function Home(props) {
     const [applyHoverState, setApplyHoverState] = useState(false);
 
     return ( 
+    
     <div className='container home'>
-        <img src={title} className='w-100 px-5 zh' style={{
+        <div style={{
+            opacity: 1 - props.scrollPosition * 2
+        }}>
+            <div class="scroll-indicator1"></div>
+            <div class="scroll-indicator2"></div>
+        </div>
+        <img src={title} alt="HyperHacks Logo" className='w-100 px-5 zh' draggable="false" style={{
             maxWidth: props.scrollPosition * document.documentElement.clientHeight < 390 ? Math.max((80 - (90 * props.scrollPosition + 10)), 48) + 'vw' : '48vw',
             position: props.scrollPosition * document.documentElement.clientHeight < 390 ? 'relative' : 'fixed',
             top: 5,
@@ -19,7 +26,8 @@ function Home(props) {
         onMouseEnter={() => setApplyHoverState(true)}
         onMouseLeave={() => setApplyHoverState(false)}
         style={{
-            zIndex: 500
+            zIndex: 500,
+            opacity: 1 - props.scrollPosition * 2
         }}
         >
         <g id="Group_10" data-name="Group 10" transform="translate(-1043.999 -832.069)">
@@ -31,6 +39,7 @@ function Home(props) {
         </svg>
     </div>
     );
+    
 }
  
 export default Home;
