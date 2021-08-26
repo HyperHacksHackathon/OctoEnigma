@@ -45,7 +45,6 @@ function Footer() {
                 </a>
             </div>
         </div>
-      
       HyperHacks © 2021
       </div>
     );

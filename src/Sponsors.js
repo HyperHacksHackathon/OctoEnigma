@@ -12,7 +12,7 @@ function Sponsors() {
     return ( 
     <div className='Page'>
         <div id='SPONSORSMARK' style={{
-            transform: 'translate(0, -20vh)'
+            transform: 'translate(0, -30vh)'
         }}></div>
         <div class="container sponsors">
             <div class="row">
