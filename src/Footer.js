@@ -22,6 +22,8 @@ function Footer() {
             <div className='col'>
                 <a href='mailto:info@hyperhacks.org'>Contact</a>
                 <img src={seperator32} alt="Icon Seperator" className="mx-3" draggable="false" cl></img>
+                <a href='https://hyperhacks.devpost.com/'>Devpost</a>
+                <img src={seperator32} alt="Icon Seperator" className="mx-3" draggable="false" cl></img>
                 <a href='https://sponsors.hyperhacks.org/'>Sponsors</a>
                 <br></br>
                 <a href="https://www.youtube.com/channel/UC1ql_UDrZ1SR5Estfjv5zgA"
