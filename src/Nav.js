@@ -67,7 +67,7 @@ function Nav(props) {
                     onMouseEnter={() => setSponsorsHoverState(true)}
                     onMouseLeave={() => setSponsorsHoverState(false)}
                 ><tspan x="0" y="0" clickable="false">Sponsors</tspan></text></a>
-                <path d={"M" + ((props.scrollPosition - 1) * 295 + 2640) + ",4510.669 h-200"} transform="translate(-1667.023 -3207)" strokeWidth='5' stroke={props.scrollPosition < 0.2 ? 'transparent' : 'white'}></path>
+                <path d={"M" + ((props.scrollPosition - 1) * 295 + 2640) + ",4505.669 h-160"} transform="translate(-1667.023 -3207)" strokeWidth='5' stroke={props.scrollPosition < 0.2 ? 'transparent' : 'white'} strokeLinecap='round'></path>
             </g>
          </svg>
 
@@ -124,13 +124,13 @@ function Nav(props) {
                     onMouseEnter={() => setSponsorsHoverState(true)}
                     onMouseLeave={() => setSponsorsHoverState(false)}
                 ><tspan x="0" y="0">Sponsors</tspan></text>
-                <path d={"M" + ((props.scrollPosition - 1) * 295 + 2640) + ",4510.669 h-200"} transform="translate(-1667.023 -3207)" strokeWidth='5' stroke={props.scrollPosition < 0.2 ? 'transparent' : 'white'}></path>
+                <path d={"M" + ((props.scrollPosition - 1) * 295 + 2640) + ",4505.669 h-160"} transform="translate(-1667.023 -3207)" strokeWidth='5' stroke={props.scrollPosition < 0.2 ? 'transparent' : 'white'} strokeLinecap='round'></path>
             </g>
          </svg>
          <div style={{
-             backgroundColor: '#181a1f',
+             backgroundColor: '#110E19',
              width: '100vw',
-             height: 'calc(' + ((document.documentElement.clientWidth * 0.8 * 0.139957264957265)) + 'px)',
+             height: 'calc(' + ((document.documentElement.clientWidth * 0.8 * 0.139957264957265) * Math.min(props.scrollPosition, 1)) + 'px)',
              position: 'fixed',
              top: 0,
              left: 0,

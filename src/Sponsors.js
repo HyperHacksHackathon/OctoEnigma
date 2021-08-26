@@ -23,7 +23,6 @@ function Sponsors() {
                         img={wolfram}
                     >
                     </Sponsor>
-                 
                 </div>
                 <div class="col-6">
                     <Sponsor 
@@ -59,7 +58,6 @@ function Sponsors() {
                 </div>
             </div>
         </div>
-        
     </div>
     );
 }
@@ -71,17 +69,17 @@ function Sponsor(props) {
             <div class="modal fade" id={props.title + 'Modal'} tabindex="-1" role="dialog" aria-labelledby="echoARModalTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
                     <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title text-dark" id="exampleModalLongTitle">{props.title}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <p className='text-dark'>
-                            {props.desc}
-                        </p>
-                    </div>
+                        <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="exampleModalLongTitle">{props.title}</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <p className='text-dark'>
+                                {props.desc}
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
