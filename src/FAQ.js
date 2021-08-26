@@ -19,8 +19,8 @@ function FAQ() {
                 <div class={"carousel-item" + (currentSlide == 0 ? 'active' : '')}>
                     <svg xmlns="http://www.w3.org/2000/svg" height='65vh' width='90vw' viewBox="0 0 891.012 535.179">
                     <g id="Group_18" data-name="Group 18" transform="translate(-179.488 -1586.266)">
-                        <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
-                        <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
+                        <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="10"/>
+                        <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="10"/>
                         <text id="How_Many_" data-name="How Many?" transform="translate(213 1646)" fill="#fff" font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"><tspan x="0" y="0">What's a hackathon?</tspan></text>
                         <foreignObject x="200" y="1685" width="95%" height="200">
                             <p style={{
@@ -34,14 +34,14 @@ function FAQ() {
                 <div className={"carousel-item" + (currentSlide == 1 ? 'active' : '')}>
                     <svg xmlns="http://www.w3.org/2000/svg" height='65vh' width='90vw' viewBox="0 0 891.012 535.179">
                         <g id="Group_18" data-name="Group 18" transform="translate(-179.488 -1586.266)">
-                            <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
-                            <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
+                            <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="10"/>
+                            <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="10"/>
                             <text id="How_Many_" data-name="How Many?" transform="translate(213 1646)" fill="#fff" font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"><tspan x="0" y="0">Who can apply?</tspan></text>
                             <foreignObject x="200" y="1685" width="95%" height="200">
                                 <p style={{
                                     fontSize: 32,
                                     fontFamily: "ibm-plex-sans, sans-serif"
-                                }}>Anyone that is a student at the time of the hackathon. This includes high school, university, college, bootcamps, and home-schooling</p>
+                                }}>Anyone that is a student at the time of the hackathon. This includes high school, university, college, bootcamps, and home-schooling.</p>
                             </foreignObject>
                         </g>
                     </svg>
@@ -49,14 +49,14 @@ function FAQ() {
                 <div class={"carousel-item" + (currentSlide == 2 ? 'active' : '')}>
                     <svg xmlns="http://www.w3.org/2000/svg" height='65vh' width='90vw' viewBox="0 0 891.012 535.179">
                         <g id="Group_18" data-name="Group 18" transform="translate(-179.488 -1586.266)">
-                            <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="12"/>
-                            <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="12"/>
+                            <line id="Line_12" data-name="Line 12" x2="879" transform="translate(185.5 1672.994)" fill="none" stroke="#ee14fa" stroke-width="10"/>
+                            <path id="Path_11" data-name="Path 11" d="M2224,4974.266V5444.95l52.5,52.5h826.517V5042.367l-68.1-68.1Z" transform="translate(-2038.512 -3382)" fill="none" stroke="#ee14fa" stroke-width="10"/>
                             <text id="How_Many_" data-name="How Many?" transform="translate(213 1646)" fill="#fff" font-size="35" font-family="ibm-plex-sans, sans-serif" font-weight="700"><tspan x="0" y="0">Where is it?</tspan></text>
                             <foreignObject x="200" y="1685" width="95%" height="200">
                                 <p style={{
                                     fontSize: 32,
                                     fontFamily: "ibm-plex-sans, sans-serif"
-                                }}>Our event is 100% virtual and will mostly be held on Discord</p>
+                                }}>Our event is 100% virtual and will mostly be held on Discord.</p>
                             </foreignObject>
                         </g>
                     </svg>
