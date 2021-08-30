@@ -56,7 +56,7 @@ class App extends Component {
           <div style={{
             paddingLeft: '15%',
             paddingRight: '15%',
-            color: '#FFCC4D',
+            // color: '#FFCC4D',
             perspective: '400px'
           }}>
           <h2 className='' style={{
