@@ -57,10 +57,11 @@ class App extends Component {
             paddingLeft: '15%',
             paddingRight: '15%',
             // color: '#FFCC4D',
-            perspective: '400px'
+            // perspective: '400px'
           }}>
           <h2 className='' style={{
-            transform: 'rotateX(25deg)',
+            lineHeight: '38px',
+            // transform: 'rotateX(25deg)',
           }}>
             Start Date: Oct 1st, 2021 <br></br>
             Length: 48hrs <br></br><br></br>
