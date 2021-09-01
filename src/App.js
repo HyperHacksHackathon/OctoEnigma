@@ -48,8 +48,8 @@ class App extends Component {
       <div className="App">
         <Home scrollPosition={this.state.scrollPosition}></Home>
         <Nav scrollPosition={this.state.scrollPosition}></Nav>
-        <FAQ></FAQ>
         <About></About>
+        <FAQ></FAQ>
         <Sponsors></Sponsors>
         <Footer></Footer>
       </div>

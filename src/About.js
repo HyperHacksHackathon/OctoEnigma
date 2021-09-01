@@ -11,41 +11,35 @@ function About() {
     return ( 
     <div className='Page'>
         <div id='ABOUTMARK' style={{
-              transform: 'translate(0, -40vh)'
+              transform: 'translate(0, -30vh)'
           }}></div>
-        <div className='container' style={{
-            width: '80vw',
-            fontSize: 50,
+        <div className='container h1' style={{
+            width: '100vw',
             fontFamily: "ibm-plex-sans, sans-serif",
             fontWeight: 'bold'
         }}>
             <div className='row py-5'>
-                
-                <div className='col'>
+                <div className='col-md-6 py-4'>
                     <img src={calendar} className='icon'></img>
                     Oct 1st - 3rd, 2021
                 </div>
-                <div className='col'>
+                <div className='col-md-6 py-4'>
                     <img src={clock} className='icon'></img>
                     48 hours
                 </div>
-                </div>
-            <div className='row py-5'>
-                <div className='col'>
+                <div className='col-md-6 py-4'>
                     <img src={dollar} className='icon'></img>
                     Thousands in prize value
                 </div>
-                <div className='col'>
+                <div className='col-md-6 py-4'>
                     <img src={presentation} className='icon'></img>
                     Innovation Focused
                 </div>
-                </div>
-            <div className='row py-5'>
-                <div className='col'>
+                <div className='col-md-6 py-4'>
                     <img src={code} className='icon'></img>
                     Workshops
                 </div>
-                <div className='col'>
+                <div className='col-md-6 py-4'>
                     <img src={idea} className='icon'></img>
                     Talks
                 </div>
