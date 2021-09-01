@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import About from './About';
 import FAQ from './FAQ';
 import Footer from './Footer';
 import Home from './Home';
@@ -48,22 +49,7 @@ class App extends Component {
         <Home scrollPosition={this.state.scrollPosition}></Home>
         <Nav scrollPosition={this.state.scrollPosition}></Nav>
         <FAQ></FAQ>
-        <div className='Page'>
-          <div id='ABOUTMARK' style={{
-              transform: 'translate(0, -40vh)'
-          }}></div>
-          {/* <h1>About HyperHacks</h1> */}
-          <div style={{
-            paddingLeft: '10%',
-            paddingRight: '10%',
-          }}>
-          <h2>
-            Start Date: Oct 1st, 2021 <br></br>
-            Length: 48hrs <br></br><br></br>
-          HyperHacks is an online event where software and hardware developers from around the world form teams to create a project in only 48 hours. Our event is focused on innovation. We want to inspire students to create a unique project that brings value to society. Through our workshops, we want to give participants the knowledge to take their project further after the hackathon ends.
-          </h2>
-          </div>
-        </div>
+        <About></About>
         <Sponsors></Sponsors>
         <Footer></Footer>
       </div>
