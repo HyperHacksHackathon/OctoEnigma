@@ -55,7 +55,7 @@ function Sponsors() {
                     img={voiceflow}
                 >
                 </Sponsor>
-                <Sponsor 
+                {/* <Sponsor 
                     title='Axure'
                     site='https://axure.com'
                     desc="Axure RP is the only UX tool that gives UX professionals the power to build realistic, functional prototypes."
@@ -68,7 +68,7 @@ function Sponsors() {
                     desc="Uizard, the design tool for everyone: the world's first AI-powered digital design assistant for non-designers."
                     img={uizard}
                 >
-                </Sponsor>
+                </Sponsor> */}
             </div>
         </div>
     </div>

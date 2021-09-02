@@ -7,8 +7,7 @@ import Nav from './Nav';
 function Home(props) {
     const [applyHoverState, setApplyHoverState] = useState(false);
 
-    return ( 
-    
+    return (
     <div className='container home'>
         <div style={{
             opacity: 1 - props.scrollPosition * 2
@@ -37,9 +36,13 @@ function Home(props) {
             </a>
         </g>
         </svg>
+        <a href='https://bd8qlowg5rh.typeform.com/to/A06fLRN0' className='mt-2' style={{
+            color: 'white',
+            fontFamily: "ibm-plex-sans, sans-serif",
+            opacity: 1 - props.scrollPosition * 2
+        }}>Mentor Application</a>
     </div>
     );
-    
 }
  
 export default Home;
