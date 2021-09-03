@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.062c53f6.chunk.css",
-    "main.js": "/static/js/main.d078232c.chunk.js",
-    "main.js.map": "/static/js/main.d078232c.chunk.js.map",
+    "main.js": "/static/js/main.cda58071.chunk.js",
+    "main.js.map": "/static/js/main.cda58071.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.347fc64a.js",
     "runtime-main.js.map": "/static/js/runtime-main.347fc64a.js.map",
     "static/js/2.d4570030.chunk.js": "/static/js/2.d4570030.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/dollar.9e546e14.svg": "/static/media/dollar.9e546e14.svg",
     "static/media/echoAR.6de6b046.png": "/static/media/echoAR.6de6b046.png",
     "static/media/idea.95202ce1.svg": "/static/media/idea.95202ce1.svg",
+    "static/media/launchx.693a93a4.png": "/static/media/launchx.693a93a4.png",
     "static/media/presentation.4abc88f3.svg": "/static/media/presentation.4abc88f3.svg",
     "static/media/uizard.816e6ee9.png": "/static/media/uizard.816e6ee9.png",
     "static/media/voiceflow.ee18142a.png": "/static/media/voiceflow.ee18142a.png",
@@ -29,6 +30,6 @@
     "static/js/runtime-main.347fc64a.js",
     "static/js/2.d4570030.chunk.js",
     "static/css/main.062c53f6.chunk.css",
-    "static/js/main.d078232c.chunk.js"
+    "static/js/main.cda58071.chunk.js"
   ]
 }
