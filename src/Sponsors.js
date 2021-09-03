@@ -85,7 +85,7 @@ function Sponsors() {
 
 function Sponsor(props) {
     return (
-        <div className='col-6 col-sm-4'>
+        <div className='col-6 col-sm-4 d-flex align-items-center justify-content-center'>
             <img data-toggle="modal" data-target={'#' + props.title + 'Modal'} src={props.img} className='sponsor-image'></img>
             <div class="modal fade" id={props.title + 'Modal'} tabindex="-1" role="dialog" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
