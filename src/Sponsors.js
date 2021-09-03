@@ -57,27 +57,20 @@ function Sponsors() {
                 >
                 </Sponsor>
                 <Sponsor 
-                    title='Voiceflow'
-                    site='https://www.voiceflow.com'
-                    desc="Voiceflow helps teams create great conversations from start to finish. Bring your conversations to life with the platform used by the world's best teams."
-                    img={voiceflow}
-                >
-                </Sponsor>
-                <Sponsor 
                     title='LaunchX'
                     site='https://launchx.com'
                     desc="LaunchX brings together high school entrepreneurs with the resources and network to unleash their entrepreneurial spirit and start real companies."
                     img={launchx}
                 >
                 </Sponsor>
-                {/* <Sponsor 
+                <Sponsor 
                     title='Axure'
                     site='https://axure.com'
                     desc="Axure RP is the only UX tool that gives UX professionals the power to build realistic, functional prototypes."
                     img={axure}
                 >
                 </Sponsor>
-                <Sponsor 
+                {/* <Sponsor 
                     title='Uizard'
                     site='https://uizard.io'
                     desc="Uizard, the design tool for everyone: the world's first AI-powered digital design assistant for non-designers."
