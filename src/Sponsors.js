@@ -4,6 +4,7 @@ import replit from './Sponsors/replit.png';
 import echoar from './Sponsors/echoAR.png';
 import xyz from './Sponsors/xyz.png';
 import voiceflow from './Sponsors/voiceflow.png';
+import launchx from './Sponsors/launchx.png';
 import axure from './Sponsors/axure.jpg';
 import uizard from './Sponsors/uizard.png';
 
@@ -53,6 +54,20 @@ function Sponsors() {
                     site='https://www.voiceflow.com'
                     desc="Voiceflow helps teams create great conversations from start to finish. Bring your conversations to life with the platform used by the world's best teams."
                     img={voiceflow}
+                >
+                </Sponsor>
+                <Sponsor 
+                    title='Voiceflow'
+                    site='https://www.voiceflow.com'
+                    desc="Voiceflow helps teams create great conversations from start to finish. Bring your conversations to life with the platform used by the world's best teams."
+                    img={voiceflow}
+                >
+                </Sponsor>
+                <Sponsor 
+                    title='LaunchX'
+                    site='https://launchx.com'
+                    desc="LaunchX brings together high school entrepreneurs with the resources and network to unleash their entrepreneurial spirit and start real companies."
+                    img={launchx}
                 >
                 </Sponsor>
                 {/* <Sponsor 

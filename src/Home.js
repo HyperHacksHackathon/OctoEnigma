@@ -36,11 +36,22 @@ function Home(props) {
             </a>
         </g>
         </svg>
-        <a href='https://bd8qlowg5rh.typeform.com/to/A06fLRN0' className='mt-2' style={{
+        <hr style={{
+            color: 'white',
+            width: '13vw',
+            marginTop: '13px',
+            marginBottom: '5px'
+        }}></hr>
+        <div style={{
+            width: '20%'
+        }}>
+        <a href='https://mentors.hyperhacks.org' style={{
             color: 'white',
             fontFamily: "ibm-plex-sans, sans-serif",
+            fontSize: '2vh',
             opacity: 1 - props.scrollPosition * 2
         }}>Mentor Application</a>
+        </div>
     </div>
     );
 }
