@@ -70,13 +70,13 @@ function Sponsors() {
                     img={axure}
                 >
                 </Sponsor>
-                {/* <Sponsor 
+                <Sponsor 
                     title='Uizard'
                     site='https://uizard.io'
                     desc="Uizard, the design tool for everyone: the world's first AI-powered digital design assistant for non-designers."
                     img={uizard}
                 >
-                </Sponsor> */}
+                </Sponsor>
             </div>
         </div>
     </div>
