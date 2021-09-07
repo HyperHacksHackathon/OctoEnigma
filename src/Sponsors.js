@@ -7,6 +7,8 @@ import voiceflow from './Sponsors/voiceflow.png';
 import launchx from './Sponsors/launchx.png';
 import axure from './Sponsors/axure.jpg';
 import uizard from './Sponsors/uizard.png';
+import pitchpages from './Sponsors/pitchpages.png';
+
 
 
 
@@ -75,6 +77,13 @@ function Sponsors() {
                     site='https://uizard.io'
                     desc="Uizard, the design tool for everyone: the world's first AI-powered digital design assistant for non-designers."
                     img={uizard}
+                >
+                </Sponsor>
+                <Sponsor 
+                    title='PitchPages'
+                    site='https://pitchpages.io'
+                    desc="The easiest way to pitch your startup and get funded."
+                    img={pitchpages}
                 >
                 </Sponsor>
             </div>
