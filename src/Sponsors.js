@@ -8,6 +8,8 @@ import launchx from './Sponsors/launchx.png';
 import axure from './Sponsors/axure.jpg';
 import uizard from './Sponsors/uizard.png';
 import pitchpages from './Sponsors/pitchpages.png';
+import maceng from './Sponsors/mcmaster-eng.png';
+
 
 
 
@@ -23,6 +25,13 @@ function Sponsors() {
         }}></div>
         <div class="container sponsors">
             <div class="row">
+            <Sponsor 
+                    title='McMaster Enginnering'
+                    site='https://www.eng.mcmaster.ca'
+                    desc="Ranked as one of the world's top engineering schools, the Faculty of Engineering plays a significant role in helping McMaster University earn its reputation as one of Canada’s most innovative universities. "
+                    img={maceng}
+                >
+                </Sponsor>
                 <Sponsor 
                     title='Wolfram'
                     site='https://www.wolfram.com'
